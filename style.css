@@ -1,0 +1,53 @@
+.cont {
+    box-shadow: 0 0 10px black;
+    margin-top: 40vh;
+    transform: translateY(-40%);
+    width: 85%;
+}
+
+.pic,
+.tool {
+    padding: 10px;
+}
+
+.picbox {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border: 1px solid gray;
+    background-color: lightgrey;
+    color: white;
+    font-size: 100px;
+    vertical-align: middle;
+}
+
+.picbox:hover {
+    cursor: pointer;
+    background-color: rgb(136, 134, 134);
+}
+
+button {
+    margin: 10px;
+}
+
+.textbox {
+    resize: none;
+    overflow: hidden;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    height: fit-content;
+}
+
+.logodiv {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding:1px;
+    position:relative;
+    top:0;
+    left:50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 10px black;
+}
+
